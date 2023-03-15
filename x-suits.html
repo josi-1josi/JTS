@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial scale=1.0">
+    <title>josi.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/b10bdc9d83.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="fonts 6/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Tiro+Devanagari+Sanskrit:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/PUBG.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html" style="--i:1;">HOME</a></li>
+                    <li><a href="download.html" style="--i:2;">DOWNLOAD</a></li>
+                    <li><a href="x-suits.html" style="--i:3;">X-SUITS</a></li>
+                    <li><a href="versions.html" style="--i:4;">VERSIONS</a></li>
+                    <li><a href="contact.html" style="--i:5;">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <h1>PUBG X-SUITS</h1>
+    </section>
+
+    <!------- X-SUITS ------->
+
+    <section class="facilities">
+        <h1>X-SUITS</h1>
+        <p>PUBG Mobile BattleGrounds.</p>
+
+        <div class="row">
+            <div class="facilities-clo">
+                <img src="images/ph.png">
+                <h3>PHARAHO</h3>
+                <p>The King Of Anicient Egyptians.</p>
+            </div>
+            <div class="facilities-clo">
+                <img src="images/blood.png">
+                <h3>BLOOD RAVEN</h3>
+                <p>The Bloody Crows X-suit.</p>
+            </div>
+            <div class="facilities-clo">
+                <img src="images/pos.png">
+                <h3>POSEIDON</h3>
+                <p>Mytical God Of The Seas.</p>
+            </div>
+            <div class="facilities-clo">
+                <img src="images/aval.png">
+                <h3>AVALANCHE</h3>
+                <p>Glacier X-suit.</p>
+            </div>
+            <div class="facilities-clo">
+                <img src="images/silv.jpg">
+                <h3>SILVANUS</h3>
+                <p>Dominion Of Everlasting Grace.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <!------ Footer ------>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>PUBG Mobile is a free-to-play battle royale video game developed by<br> LightSpeed and Quantum Studio, a division of Tencent Games.</p>
+        <div class="social-media">
+            <a href="form-handler.php" style="--i:7;"><i class='fa-brands fa-facebook'></i></a>
+            <a href="form-handler.php" style="--i:8;"><i class='fa-brands fa-instagram'></i></a>
+            <a href="form-handler.php" style="--i:9;"><i class='fa-brands fa-telegram'></i></a>
+            <a href="form-handler.php" style="--i:10;"><i class='fa-brands fa-twitter'></i></a>
+        </div>
+        <p>Developed By <i class="fa-brands fa-critical-role"></i> </i>LightSpeed and Quantum Studio @〆RIP亞JOSI亗</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function ShowMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>
